@@ -1,0 +1,9 @@
+{
+  "name": "dsb-has",
+  "version": "1.0.0",
+  "description": "determines if an object has any or all provided property keys. optionally returns 1st match",
+  "main": "index.js",
+  "author": "Casey Dwayne",
+  "license": "None",
+  "private": true
+}
