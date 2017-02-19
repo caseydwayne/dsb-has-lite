@@ -1,9 +1,12 @@
 {
-  "name": "dsb-has",
+  "name": "dsb-has-lite",
   "version": "1.0.0",
-  "description": "determines if an object has any or all provided property keys. optionally returns 1st match",
+  "description": "the native, cross-browser compatible 'hasOwnProperty' method",
   "main": "index.js",
   "author": "Casey Dwayne",
-  "license": "None",
-  "private": true
+  "devDependencies": {
+    "dsb-debug-mini": "latest"
+  },
+  "license": "DBAA",
+  "private": false
 }
