@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "the native, cross-browser compatible 'hasOwnProperty' method",
   "main": "index.js",
-  "author": "Casey Dwayne",
+  "author": "Casey Dwayne <opensource@caseydwayne.com> (http://caseydwayne.com)",
   "devDependencies": {
-    "dsb-debug-mini": "latest"
+    "dsb-debug-mini": "^1.0.0"
   },
-  "license": "DBAA",
-  "private": false
+  "license": "NONE",
+  "private": true
 }

@@ -6,13 +6,13 @@ module.exports = (function(DEBUG){
    * the classic, cross-browser safe method
    * @param object {object} the object to check
    * @param property {string} a property key to check for
-   * @return hasProp {boolean} 
+   * @return hasProp {boolean}
    */
 
 /*----------------------------------------------------------------------------*/
 
   var _has = function(o,p){
-       
+
     if( typeof o !== 'object' )
       throw new Error('has cannot process on a non-object..., received '+o);
 
@@ -22,14 +22,15 @@ module.exports = (function(DEBUG){
         return (prop in obj) && (!(prop in proto) || proto[prop] !== obj[prop]);
       };
       return __has( o, p );
-    } 
+    }
 
     return Object.prototype.hasOwnProperty.call( o, p );
+
   };
 
 /******************************************************************************/
 
   return _has;
-  
-/*---------------------------------------------------------------------*/  
+
+/*----------------------------------------------------------------------------*/
 }(0));
